@@ -1,29 +1,16 @@
-// importamos react 
 import React, { Component } from 'react';
-//importamos componentes nativos
-import {View, Text,StyleSheet } from 'react-native';
+import {View, Text} from 'react-native';
 
-//declaramos nuestro componente
-class CoinDetailsScreen extends Component{
+//declaración de un class component
+
+class CoinDetailScreen extends Component{
     render(){
-        return(
-            <View style={styles.container}>
-                <Text style={styles.text}> Mi primer pantalla detalle Pantalla De Detalle DEL DSM-54</Text>
-            </View>
+    return(
+        <View> 
+            <Text>Est Es mi pantalla de detalle</Text>
+        </View>
         )
     }
 }
 
-const styles = StyleSheet.create({
-    container: {
-        flex : 1,
-        backgroundColor : "yellow"
-    },
-    text:{
-        color : "#000",
-        textAlign: "center",
-    }
-
-});
-
-export default CoinDetailsScreen;
+export default  CoinDetailScreen;

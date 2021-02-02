@@ -13,4 +13,17 @@ class CoinDetailScreen extends Component{
     }
 }
 
-export default  CoinDetailScreen;
+
+const styles = StyleSheet.create({
+    container: {
+        flex : 1,
+        backgroundColor : "DarkSalmon"
+    },
+    text:{
+        color : "#000",
+        textAlign: "center",
+    }
+
+});
+
+export default CoinDetailsScreen;
